@@ -1,0 +1,9 @@
+<h1 class="title">{{ title }}</h1>
+<section class="content">
+  <ul class="actions">
+    <li *ngFor="#option of options" (click)="select(option)">
+      <button class="button primary">{{ option }}</button>
+    </li>
+  </ul>
+  <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fnaturalnewagemum.com%2Fwp-content%2Fuploads%2F2012%2F05%2Fneed-coffee.jpg&f=1">
+</section>

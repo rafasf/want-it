@@ -1,0 +1,36 @@
+html, button {
+  font-family: avenir, "avenir next", helvetica, arial, sans-serif;
+  font-size: 14px;
+}
+
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.button.primary {
+  padding: 10px;
+  background-color: #85144b;
+  color: #fff;
+  width: 100%;
+  margin: 3px 0;
+  border: none;
+}
+
+.button.primary:hover {
+  background-color: #9b1758;
+  cursor: pointer;
+}
