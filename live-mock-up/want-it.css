@@ -12,6 +12,13 @@ ul, li {
   list-style: none;
 }
 
+input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 3px;
+  margin-bottom: 3px;
+}
+
 .content {
   width: 90%;
   margin: 0 auto;
