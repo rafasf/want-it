@@ -7,13 +7,15 @@ import {Router} from 'angular2/router';
 })
 
 export class OptionsComponent {
-  public options = ["want", "pick up", "rank"];
+  public options = ["want", "get", "rank"];
 
   constructor(private _router: Router) { }
 
   select(option: string) {
     if (option === "want") {
       this._router.navigate(['PlaceOrder']);
+    } else if (option === "get") {
+      this._router.navigate(['Orders']);
     }
   }
 }

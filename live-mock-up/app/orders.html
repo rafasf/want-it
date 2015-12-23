@@ -1,0 +1,7 @@
+<ul class="items">
+  <li class="item" *ngFor="#order of orders">
+    <h1>{{ order.item }}</h1>
+    <small>{{ order.name }}</small>
+  </li>
+</ul>
+<button class="button primary" (click)="done()">Done</button>

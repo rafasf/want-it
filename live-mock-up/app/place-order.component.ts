@@ -13,7 +13,6 @@ export class PlaceOrderComponent {
   constructor(private _router: Router) { }
 
   place(order: Order) {
-    console.log(order);
     this._router.navigate(['Options']);
   }
 }

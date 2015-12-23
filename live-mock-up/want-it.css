@@ -3,7 +3,7 @@ html, button {
   font-size: 14px;
 }
 
-body, ul, li {
+body, ul, li, h1 {
   margin: 0;
   padding: 0;
 }
@@ -26,6 +26,8 @@ input[type="text"] {
 
 .title {
   text-align: center;
+  background-color: #3D9970;
+  padding: 5px;
 }
 
 .button.primary {
@@ -40,4 +42,20 @@ input[type="text"] {
 .button.primary:hover {
   background-color: #9b1758;
   cursor: pointer;
+}
+
+.item {
+  padding: 5px;
+  border-bottom: solid #aaa 1px;
+}
+
+.item h1 {
+  font-size: 1.2em;
+}
+
+img {
+  opacity: .8;
+  width: 50%;
+  display: block;
+  margin: 10px auto;
 }
