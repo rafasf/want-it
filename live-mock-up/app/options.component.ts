@@ -16,6 +16,8 @@ export class OptionsComponent {
       this._router.navigate(['PlaceOrder']);
     } else if (option === "get") {
       this._router.navigate(['Orders']);
+    } else if (option === "rank") {
+      this._router.navigate(['Heros']);
     }
   }
 }

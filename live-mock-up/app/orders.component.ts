@@ -8,7 +8,7 @@ import {Order} from "./order";
 })
 
 export class OrdersComponent {
-  public orders: orders[] = [
+  public orders: Order[] = [
   { name: "Bob", item: "Double Espresso" },
   { name: "Mary", item: "Small Vanilla Latte" },
   { name: "John", item: "Medium Regular Coffee" }];

@@ -1,0 +1,8 @@
+<ul class="items heros">
+  <li class="item" *ngFor="#hero of heros">
+    <h1>{{ hero.name }}</h1>
+    <small>pick-ups: {{ hero.pickups }}</small>
+  </li>
+</ul>
+<button class="button primary" (click)="done()">Done</button>
+
